@@ -1,0 +1,57 @@
+# POST http://localhost:5000/seller/login
+# Content-Type: application/json
+
+# {
+#     "email": "gautamkumar96801@gmail.com",
+#     "password": "123456"
+# }
+
+# POST http://localhost:5000/signup
+# Content-Type: application/json
+
+# {
+#     "email":"ab@gmail.com",
+#     "fullname":"abcd",
+#     "password":"123456"
+# }
+
+# POST http://localhost:5000/login
+# Content-Type: application/json
+
+# {
+#     "email":"abcde@gmail.com",
+#     "password":"123456"
+# }
+
+# GET http://localhost:5000/get-upload-url
+# Content-Type: application/json
+
+# {
+
+# }
+
+# POST http://localhost:5000/add-product
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MTk4NTU2NjZmYTdjYmVhOTVkZDVmZCIsImlhdCI6MTcxMjk0ODU2Nn0.foykKQBfkjkp55EjYUa6Pa1kKGmAY2iKbal7nbj1iFg
+
+# {
+#     "name":"abcd",
+#     "category":"abcd",
+#     "description":"abcdefgh",
+#     "price":"1000",
+#     "quantity":"10",
+#     "images": ["image1", "image2"]
+# }
+
+# POST http://localhost:5000/vendor-dashboard
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MjIxNTE5ZDNkYzIyNmYwMDAzMGE1YiIsImlhdCI6MTcxMzU1OTI2NH0.vGlgHAhwT5PVP0x1ckktqGtgUOhA-rTPZYrNHjA06jg
+# Content-Type: application/json
+
+
+# {
+#     "page":1
+# }
+
+POST http://localhost:5000/get-cart-product
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MjU3MWY1MTRlMDljNzE0YzBhOWNiNyIsImlhdCI6MTcxMzgxNjg0N30.g95ypa0ZV0uaf1QlEdPs8Wga7d_7EQqq4fyYpMj3Af8
+Content-Type: application/json
